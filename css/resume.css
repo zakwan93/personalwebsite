@@ -1,0 +1,29 @@
+.resume{
+	  	font-family: 'Oswald',sans-serif;
+	    font-family: "Courier";
+	    /*border: 15px solid #fff ;*/
+	    min-height: 100vh;
+	    width: 100%;
+	    /*position: fixed;*/
+	    /*background-color: #303030;*/
+}
+
+.left{
+	position: fixed;
+	height: 100vh;
+	display: block;
+}
+
+.row-left{
+	margin-top: 25%;
+}
+
+p{
+	line-height: 0.5;
+}
+
+img{
+	border-radius: 20%;
+	width: 250px;
+	height: 250px;
+}

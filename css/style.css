@@ -1,0 +1,177 @@
+.index {
+	/*font-family: 'Jockey One', sans-serif;*/
+	    font-family: 'Oswald',sans-serif;
+	    font-family: "Courier";
+	    border: 15px solid #fff ;
+	    min-height: 100vh;
+	    width: 100%;
+	    position: fixed;
+	    background-color: #303030;
+}
+
+.images {
+  position: relative; 
+  left: 0; 
+  top: 0;
+}
+.my-image {
+  /*z-index: 1;*/
+  width: 28%;
+  height: 60%;
+  position: absolute;
+  top: 0;
+  left: 35.8%;
+  background-color: #181818;
+  border-radius: 100%;
+  
+}
+
+.my-face{
+/*	 transform-origin: left top;
+  transition: transform 1s;*/
+    position: absolute;
+    top: 0;
+  /*left: 22%;*/
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  transform: rotate(0deg);
+    transition: transform 4s;
+}
+
+.my-face:hover{
+  transform:  rotateY(-45deg);
+}
+
+
+.header-background{
+	width: 100%;
+	z-index: -1;
+	height: 70%;
+		position: relative;
+		top: 150px;
+		
+}
+
+.caption {
+    position: absolute;
+    top: 63%;
+    left: 16%;
+    width: 100%;
+}
+
+.myname{
+	font-size: 65px;
+	/*color: #4682B4;*/
+	letter-spacing: 20px;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid orange;  
+  	/*The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line 
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+	typing 3.5s steps(40, end),
+    blink-caret .6s step-end infinite;
+}
+
+
+.sub-caption {
+    position: absolute;
+    top: 100%;
+    left: 17%;
+    width: 100%;
+}
+
+.subheading{
+	letter-spacing: 4px;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid orange; /*The typwriter cursor */
+  	white-space: nowrap;
+  	  /*Keeps the content on a single line */
+  	margin: 0 auto;
+	animation: type2 4s steps(60, end),
+	blink-caret .12s step-end infinite;
+	
+}
+
+.main-background{
+	width: 100%;
+	height: 200px;	
+}
+
+.logos{
+	height: 70px;
+	width: 70px;
+}
+
+.symbol-container{
+	height: 200px;
+	margin: 0;
+	background-color: #181818;
+	margin-top: 20px;
+	/*animation: 3s ease 0s normal forwards 1 fadein;
+	animation-delay: 4s;
+	/*background-image: url("images/tv-screen-texture-1.png");*/
+}
+
+.contact-logo{
+  background-color: transparent;
+  border: none;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: auto; margin-right: auto; */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink-caret {
+  from { border-color: transparent }
+ to 50% { border-color: orange; }
+  60%{border-color: transparent }
+  }
+}
+
+@keyframes rotate{
+	0%
+}
+
+/*@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+*/
+
+
