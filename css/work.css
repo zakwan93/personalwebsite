@@ -1,0 +1,60 @@
+body {
+	/*font-family: 'Jockey One', sans-serif;*/
+	    font-family: 'Oswald',sans-serif;
+	    font-family: "Courier";
+	    border: 15px solid #fff;
+	    min-height: 100vh;
+	    width: 100%;
+	    border-bottom-color: #343a40;
+	    /*position: fixed;*/
+	   
+}
+.container{
+	/*border-left: 1px solid #343a40 ;*/
+	border-left: 1px solid rgba(0,0,0,.1);
+	border-right: 1px solid rgba(0,0,0,.1) ;
+
+	/*box-shadow-left: 5px 10px #6c757d;*/
+}
+.line-height{
+	line-height: 40px;
+}
+.header{
+	letter-spacing: 15px;
+}
+
+.my-face{
+	border-radius: 100%;
+	width: 80%;
+}
+
+.my-sidebar {
+    -ms-flex: 0 0 330px;
+    flex: 0 0 330px;
+    background-color: greenyellow; 
+} 
+
+.myname{
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid orange;  
+  	/*The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line 
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+	typing 3.5s steps(100),
+    blink-caret .6s step-end infinite;
+}
+
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@media (max-width: 690px) {
+  .header{
+	letter-spacing: 2px;
+}
+}
