@@ -1,0 +1,15 @@
+body {
+	/*font-family: 'Jockey One', sans-serif;*/
+	    font-family: 'Oswald',sans-serif;
+	    font-family: "Courier";
+	    border: 15px solid #fff;
+	    min-height: 100vh;
+	    width: 100%;
+	    border-bottom-color: #343a40;
+	    /*position: fixed;*/
+	   
+}
+
+.my-icon{
+	color: red !important;
+}
